@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { ModeContext } from '../../hooks/DarkMode';
-import ApiContainer from '../apiContainer';
+import ApiContainer from '../ApiContainer';
 import Header from '../Header';
 import styles from './App.css';
 
