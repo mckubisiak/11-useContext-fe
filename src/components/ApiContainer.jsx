@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import Characterlist from '../components/Characterlist';
+import Characterlist from '../components/CharacterList';
 import { fetchCharacters } from '../services/fetchApi';
 
 const ApiContainer = () => {
